@@ -7,12 +7,6 @@ This was a project to build the back end for an e-commerce site, using the Expre
 
 I used three Node Package Modules: [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), and [dotenv package](https://www.npmjs.com/package/dotenv).
 
-**Extra:** After you run thru the question prompts for adding an employee, role, or department, it gives you a table to see the new entry in the database. 
-
-I also added validation to my inquirer prompts so the user would either have to put at least something, or input a number where required.
-
-**Regrets:** This week was hectic. I would like to try the bonus eventually, when I have more free time.
-
 
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
 ![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet)
@@ -45,7 +39,7 @@ Then hit ```npm i``` to install all of the packages included in the package.json
 
 Replace with your own info in the config/connection.js
 
-```npm run schema``` to set up your tables.
+Login into MySQL and the ```use ecommerce_db``` and then ```show tables``` ton confirm it worked.
 
 ```npm run seed``` to set up some starter data for your base.
 
