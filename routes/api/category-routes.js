@@ -36,7 +36,7 @@ router.get('/:id', (req, res) => {
     ]
   })
   .then(result => {
-    console.log(result);
+    // console.log(result);
     if (!result) {
       res.status(404).json({ message: 'Nope, these is not the category you were looking for.' });
       return;
@@ -83,7 +83,7 @@ router.put('/:id', (req, res) => {
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
-  })
+  });
 });
 
 router.delete('/:id', (req, res) => {
